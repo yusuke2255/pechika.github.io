@@ -1,27 +1,79 @@
-# はじめてみて調べなきゃいけないこと/わからんこと/言葉など
+Scalaを始めるにあたって調べたこと
+=================================
 
-## Scala
+Scalaをゼロから始めるにあたって調べたことをメモ  
+(わからんこと/言葉など)
 
-### なんぞ
+Scala
+------
+### なんぞ ###
 
-### 参考
+### 参考 ###
+
+http://twitter.github.io/effectivescala/index-ja.html
+
+skinny
+-------
+
+### なんぞ ###
+Scalatraをベースに作られたフルスタックWebアプリケーションフレームワーク
+
+#### コンポーネント達 ####
+
+##### Routing & Controller & Validator #####
+
+Scalatraを使用  
+Scalatraよりできること多い？
+
+##### Skinny ORM #####
+
+O/Rマッパー  
+ScalikeJDBCを使う
+
+##### DB Migration #####
+
+Flyway
+
+
+
+### 参考 ###
+
+[skinny-framework.org](http://skinny-framework.org/)
+
+
+
+Scalatra
+-----------
+
+### なんぞ ###
+
+### 参考 ###
+
+sbt
+-------
+
+### なんぞ ###
+ビルドツール
+
+### 調べたもの ###
+
+#### クロスビルド ####
+
+以下みたいに%%を使う
+```scala
+
+libraryDependencies += "net.databinder" %% "dispatch" % "0.8.0"
+
+```
+
+> To use a library built against multiple versions of Scala, double the first % in an inline dependency to be %%. This tells sbt that it should append the current version of Scala being used to build the library to the dependency’s name. For example:
+
+
+### 参考 ###
+[cross-building] (http://www.scala-sbt.org/release/docs/Cross-Build.html)
+
+
+
+
 
 ## Scalatra
-
-### なんぞ
-
-### 参考
-
-## sbt
-
-### なんぞ
-
-### 参考
-
-## skinny
-
-### なんぞ
-
-### 参考
-
-
