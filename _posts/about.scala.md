@@ -25,15 +25,27 @@ Scalatraをベースに作られたフルスタックWebアプリケーション
 Scalatraを使用  
 Scalatraよりできること多い？
 
-##### Skinny ORM #####
+##### O/Rマッパー #####
 
-O/Rマッパー  
+Skinny ORM  
 ScalikeJDBCを使う
 
-##### DB Migration #####
+###### SkinnyMapper ######
+
+Finder APIs
+Querying APIs
+
+##### DBマイグレーション #####
 
 Flyway
 
+##### テンプレートエンジン #####
+
+デフォルトでScalateを提供  
+
+##### メール #####
+
+Skinny Mailer  
 
 
 ### 参考 ###
